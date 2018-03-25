@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Logic</OriginalElement>
+  <nodes>
+    <node x="-41.25" y="-1.75">Logic.Client</node>
+    <node x="261.0" y="272.0">Logic.PositionDecorator</node>
+    <node x="-291.25" y="-3.0">Logic.Position</node>
+    <node x="266.0" y="0.0">Logic.Component</node>
+    <node x="120.5" y="125.0">Logic.Decorator</node>
+    <node x="0.0" y="272.0">Logic.SizeDecorator</node>
+    <node x="401.5" y="136.0">Logic.TrackBar</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Logic.TrackBar" target="Logic.Component">
+      <point x="0.0" y="-37.5" />
+      <point x="522.0" y="100.0" />
+      <point x="446.75" y="100.0" />
+      <point x="60.25" y="37.5" />
+    </edge>
+    <edge source="Logic.PositionDecorator" target="Logic.Decorator">
+      <point x="0.0" y="-37.5" />
+      <point x="381.5" y="247.0" />
+      <point x="316.25" y="247.0" />
+      <point x="65.25" y="48.5" />
+    </edge>
+    <edge source="Logic.SizeDecorator" target="Logic.Decorator">
+      <point x="0.0" y="-37.5" />
+      <point x="120.5" y="247.0" />
+      <point x="185.75" y="247.0" />
+      <point x="-65.25" y="48.5" />
+    </edge>
+    <edge source="Logic.Decorator" target="Logic.Component">
+      <point x="0.0" y="-48.5" />
+      <point x="251.0" y="100.0" />
+      <point x="326.25" y="100.0" />
+      <point x="-60.25" y="37.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8" x="153.0" y="194.75" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Constructors</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
